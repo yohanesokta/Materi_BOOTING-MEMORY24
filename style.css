@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+}
+.profile {
+    margin: 0 auto;
+    width: 300px;
+    background-color: darkgray;
+    padding: 20px;
+    color: white;
+}
+.profile img {
+    height: 300px;
+    object-fit: cover;
+    width: 300px;
+}
+
+.child-profile {
+    width: 200px;
+    padding: 20px;
+    background-color: lightgray;
+}
+.child-profile img {
+    width: 200px;
+    height: 200px;
+}
+
+.child-profile,
+.profile {
+    margin-top: 20px;
+}
